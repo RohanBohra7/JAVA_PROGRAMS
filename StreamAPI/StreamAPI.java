@@ -12,6 +12,7 @@ class StreamAPI
             int n=sc.nextInt();
             obj.add(n);
         }
+        
         obj.stream().sorted().forEach(x->System.out.println(x));
         Set<Integer> sortedObj=obj.stream().collect(Collectors.toSet());
         sortedObj.stream().filter(x->x%2==0).forEach(x->System.out.println(x));
