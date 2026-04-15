@@ -15,6 +15,7 @@ public class advsw {
             default -> "Unknown Access";
         };
         System.out.println(s);
+        sc.close();
     }
     
 }
